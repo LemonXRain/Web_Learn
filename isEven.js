@@ -1,13 +1,10 @@
-function isEven(num);
-{
-    if ((num % 2) == 0); {
-        return true;
-    }
+//function isEven(num) {
+//return (num % 2) == 0;}
 
-    if ((num % 2) !== 0); {
-        return false
+function factorial(num) {
+    if (num === 1) {
+        return num
+    } else {
+        return num * factorial(num - 1)
     }
-
 }
-return true;
-
