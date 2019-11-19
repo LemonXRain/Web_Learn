@@ -36,8 +36,28 @@ isUniform([1, 1, 1, 1]);
 // 把陣列中的元素都相加
 // *** sumArray([1,2,3,4]) ***
 
+function sumArray(arr) {
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++) {
+        sum = sum + arr[i]
+    }
+    console.log("sum : " + sum)
+    return sum;
+}
 
+sumArray([1, 2, 3, 4]);
 
 // 取陣列中的最大值
-// *** sumArray([1,2,3,4]) ***
+// *** max([1,2,3,4]) ***
 
+function maxValue(arr) {
+    for (var i = 0; i < arr.length; i++) {
+        var max = arr[0];
+        if (max < arr[i]) {
+            max = arr[i];
+        }
+    }
+    return max;
+
+}
+maxValue([1, 2, 3, 4]);
