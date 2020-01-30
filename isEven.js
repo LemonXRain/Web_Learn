@@ -46,6 +46,8 @@ function sumArray(arr) {
 sumArray([1, 2, 3, 4]);
 
 console.log("test!!!!!!!!");
+
+console.log("git fork test !!!!!!!!");
 // 取陣列中的最大值
 // *** max([1,2,3,4]) ***
 
