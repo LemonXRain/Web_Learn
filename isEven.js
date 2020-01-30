@@ -3,7 +3,7 @@
 
 // function factorial(num) {
 // if (num === 1) {
-// return num} 
+// return num}
 // else {
 // return num * factorial(num - 1)}}
 
@@ -11,7 +11,6 @@
 //*** printReverse([1,2,3,4]) ***
 
 function printReverse(num) {
-
     for (var count = num.length; 0 < count; count--) {
         console.log(num[count - 1]);
     }
@@ -29,7 +28,6 @@ function isUniform(arr) {
         }
     }
     return true;
-
 }
 isUniform([1, 1, 1, 1]);
 
@@ -39,14 +37,15 @@ isUniform([1, 1, 1, 1]);
 function sumArray(arr) {
     var sum = 0;
     for (var i = 0; i < arr.length; i++) {
-        sum = sum + arr[i]
+        sum = sum + arr[i];
     }
-    console.log("sum : " + sum)
+    console.log("sum : " + sum);
     return sum;
 }
 
 sumArray([1, 2, 3, 4]);
 
+console.log("test!!!!!!!!");
 // 取陣列中的最大值
 // *** max([1,2,3,4]) ***
 
@@ -58,6 +57,5 @@ function maxValue(arr) {
         }
     }
     return max;
-
 }
 maxValue([1, 2, 3, 4]);
